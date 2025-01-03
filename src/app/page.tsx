@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
-      <div className="border border-red-500 px-12">
+    <div className="px-12">
+      <div className="border border-red-500">
         <div className="border border-black text-4xl py-64">
           Hi, here are some of David&apos;s favorite cafes to study or work at.
         </div>
@@ -12,7 +12,7 @@ export default function Home() {
           Here&apos;s a selection of David&apos;s most visited cities.
         </div>
       </div>
-      <div className="border border-black grid grid-cols-1 md:grid-cols-2 gap-4 px-12 py-4 h-fit">
+      <div className="border border-black grid grid-cols-1 md:grid-cols-2 gap-4 py-4 h-fit">
         <Link href={""}>
           <Image 
             src=""
