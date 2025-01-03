@@ -6,10 +6,6 @@ export default {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    // "./node_modules/@nextui-org/theme/dist/components/navbar.js",
-    // "./node_modules/@nextui-org/theme/dist/components/dropdown.js",
-    // "./node_modules/@nextui-org/theme/dist/components/avatar.js",
-    // "./node_modules/@nextui-org/theme/dist/components/link.js",
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
@@ -18,6 +14,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        libre: ['var(--font-libre-baskerville)'],
+        sans: ['var(--font-source-sans)']
+      }
     },
   },
   darkMode: "class",

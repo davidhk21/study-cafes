@@ -1,38 +1,50 @@
 import Image from "next/image";
 import Link from "next/link";
+import newYork from '../../public/new-york.png';
+import losAngeles from '../../public/los-angeles.png';
+import sanJose from '../../public/san-jose.jpg';
 
 export default function Home() {
   return (
     <div className="px-12">
-      <div className="border border-red-500">
-        <div className="border border-black text-4xl py-64">
+      <div className="">
+        <div className="text-3xl py-64 font-libre tracking-tight">
           Hi, here are some of David&apos;s favorite cafes to study or work at.
         </div>
-        <div className="text-2xl">
-          Here&apos;s a selection of David&apos;s most visited cities.
+        <div className="text-2xl font-sans">
+            Here&apos;s a selection of David&apos;s most visited cities
         </div>
       </div>
-      <div className="border border-black grid grid-cols-1 md:grid-cols-2 gap-4 py-4 h-fit">
-        <Link href={""}>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4 h-fit">
+        <Link href={""} className="relative text-white hover:text-black text-3xl duration-500">
           <Image 
-            src=""
+            src={newYork}
             alt="new-york"
-            className="bg-black aspect-video"
+            className="aspect-video w-full h-auto hover:opacity-50 duration-500"
           />
+          <p className="font-libre absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] pointer-events-none">
+            New York
+          </p>
         </Link>
-        <Link href={""}>
+        <Link href={""} className="relative text-white hover:text-black text-3xl duration-500">
           <Image 
-            src=""
+            src={losAngeles}
             alt="los-angeles"
-            className="bg-red-500 aspect-video"
+            className="aspect-video w-full h-auto hover:opacity-50 duration-500"
           />
+          <p className="font-libre absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] pointer-events-none">
+            Los Angeles
+          </p>
         </Link>
-        <Link href={""}>
+        <Link href={""} className="relative text-white hover:text-black text-3xl duration-500">
           <Image 
-            src=""
+            src={sanJose}
             alt="san-jose"
-            className="bg-green-500 aspect-video"
+            className="aspect-video w-full h-auto hover:opacity-50 duration-500"
           />
+          <p className="font-libre absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] pointer-events-none">
+            San Jose
+          </p>
         </Link>
       </div>
     </div>
