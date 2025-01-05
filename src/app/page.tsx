@@ -4,11 +4,29 @@ import newYork from '../../public/new-york.png';
 import losAngeles from '../../public/los-angeles.png';
 import sanJose from '../../public/san-jose.jpg';
 
+const cities = [
+  {
+    name: 'New York',
+    alt: 'new-york',
+    image: newYork
+  },
+  {
+    name: 'Los Angeles',
+    alt: 'los-angeles',
+    image: losAngeles
+  },
+  {
+    name: 'San Jose',
+    alt: 'san-jose',
+    image: sanJose
+  },
+]
+
 export default function Home() {
   return (
     <div className="px-12">
       <div className="">
-        <div className="text-3xl py-64 font-libre tracking-tight">
+        <div className="text-3xl py-56 font-libre tracking-tight">
           Hi, here are some of David&apos;s favorite cafes to study or work at.
         </div>
         <div className="text-2xl font-sans">
@@ -16,36 +34,18 @@ export default function Home() {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4 h-fit">
-        <Link href={""} className="relative text-white hover:text-black text-3xl duration-500">
+        {cities.map((city, idx) => (
+          <Link key={`${city.alt}-${idx}`} href={`/city/${city.alt}`} className="relative text-white hover:text-black text-3xl duration-500 shadow-2xl overflow-hidden">
           <Image 
-            src={newYork}
-            alt="new-york"
-            className="aspect-video w-full h-auto hover:opacity-50 duration-500"
+            src={city.image}
+            alt={city.alt}
+            className="aspect-video w-full h-auto hover:opacity-50 duration-500 hover:scale-125"
           />
           <p className="font-libre absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] pointer-events-none">
-            New York
+            {city.name}
           </p>
         </Link>
-        <Link href={""} className="relative text-white hover:text-black text-3xl duration-500">
-          <Image 
-            src={losAngeles}
-            alt="los-angeles"
-            className="aspect-video w-full h-auto hover:opacity-50 duration-500"
-          />
-          <p className="font-libre absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] pointer-events-none">
-            Los Angeles
-          </p>
-        </Link>
-        <Link href={""} className="relative text-white hover:text-black text-3xl duration-500">
-          <Image 
-            src={sanJose}
-            alt="san-jose"
-            className="aspect-video w-full h-auto hover:opacity-50 duration-500"
-          />
-          <p className="font-libre absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] pointer-events-none">
-            San Jose
-          </p>
-        </Link>
+        ))}
       </div>
     </div>
     // <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">

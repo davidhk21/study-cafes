@@ -11,7 +11,7 @@ const libreBaskerville = Libre_Baskerville({
 });
 
 const sourceSans = Source_Sans_3({
-  variable: "--font-source-sans",
+  variable: "--font-source-sans", 
   subsets: ["latin"],
 });
 

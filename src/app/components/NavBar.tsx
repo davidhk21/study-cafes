@@ -40,12 +40,12 @@ const NavBar = () => {
 
       <NavbarContent className="hidden sm:flex gap-6" justify="center">
         <NavbarItem>
-          <Link aria-current="page" color="foreground" href="#" className="text-xl font-semibold">
-            Cafes
+          <Link aria-current="page" color="foreground" href="/" className="text-xl font-semibold">
+            Home
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" className="text-xl font-semibold" href="#">
+          <Link color="foreground" className="text-xl font-semibold" href="/about">
             About
           </Link>
         </NavbarItem>
