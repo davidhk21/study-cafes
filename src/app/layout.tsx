@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Libre_Baskerville, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
-import NavBar from "./components/NavBar";
+import NavBar from "./_components/NavBar";
 import { NextUIProvider } from "@nextui-org/system";
 
 const libreBaskerville = Libre_Baskerville({
