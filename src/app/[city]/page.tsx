@@ -1,7 +1,8 @@
 import Image from 'next/image';
-import dumbo from '../../../../public/dumbo.jpg';
-import santaMonica from '../../../../public/santa-monica.png';
-import sanJoseBackground from '../../../../public/san-jose-neighborhood.jpg';
+import Link from 'next/link';
+import dumbo from '../../../public/dumbo.jpg';
+import santaMonica from '../../../public/santa-monica.png';
+import sanJoseBackground from '../../../public/san-jose-neighborhood.jpg';
 import { cafes } from '@/app/_data/cafes';
 import { CityMap, CityName } from '@/app/_types/cities';
 
@@ -43,7 +44,7 @@ const CityPage = async ({ params }: {
       </div>
       <div className='flex justify-center items-center flex-col gap-12 p-12'>
         {cafes[city].map((cafe) => (
-          <div key={cafe.id} className='w-[75vw] h-[15vh] md:h-[20vh] overflow-hidden flex items-center relative text-white hover:text-black text-3xl duration-500 shadow-2xl cursor-pointer'>
+          <Link key={cafe.id} href={`${city}/${cafe.alt}`} className='w-[75vw] h-[15vh] md:h-[20vh] overflow-hidden flex items-center relative text-white hover:text-black text-3xl duration-500 shadow-2xl cursor-pointer'>
             <Image 
               src={dumbo}
               alt={cafe.name}
@@ -52,7 +53,7 @@ const CityPage = async ({ params }: {
             <p className="font-libre absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] pointer-events-none">
               {cafe.name}
             </p>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

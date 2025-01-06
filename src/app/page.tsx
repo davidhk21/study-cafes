@@ -35,16 +35,16 @@ export default function Home() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4 h-fit">
         {cities.map((city, idx) => (
-          <Link key={`${city.alt}-${idx}`} href={`/city/${city.alt}`} className="relative text-white hover:text-black text-3xl duration-500 shadow-2xl overflow-hidden">
-          <Image 
-            src={city.image}
-            alt={city.alt}
-            className="aspect-video w-full h-auto hover:opacity-50 duration-500 hover:scale-125"
-          />
-          <p className="font-libre absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] pointer-events-none">
-            {city.name}
-          </p>
-        </Link>
+          <Link key={`${city.alt}-${idx}`} href={`/${city.alt}`} className="relative text-white hover:text-black text-3xl duration-500 shadow-2xl overflow-hidden">
+            <Image 
+              src={city.image}
+              alt={city.alt}
+              className="aspect-video w-full h-auto hover:opacity-50 duration-500 hover:scale-125"
+            />
+            <p className="font-libre absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] pointer-events-none">
+              {city.name}
+            </p>
+          </Link>
         ))}
       </div>
     </div>

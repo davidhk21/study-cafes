@@ -12,6 +12,7 @@ interface Amenities {
 export interface Cafes {
   id: string;
   name: string;
+  alt: string;
   description: string;
   photos: string[];
   url: string;
