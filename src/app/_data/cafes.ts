@@ -19,6 +19,7 @@ export const cafes: Record<string, Cafe[]> = {
         taste: 75,
         seatAvailability: 75,
         quietness: 50,
+        tbd: 50,
       },
       amenities: {
         outlets: true,
@@ -37,6 +38,7 @@ export const cafes: Record<string, Cafe[]> = {
         taste: 75,
         seatAvailability: 75,
         quietness: 50,
+        tbd: 50,
       },
       amenities: {
         outlets: true,
@@ -55,6 +57,7 @@ export const cafes: Record<string, Cafe[]> = {
         taste: 75,
         seatAvailability: 75,
         quietness: 50,
+        tbd: 50,
       },
       amenities: {
         outlets: true,
@@ -73,6 +76,7 @@ export const cafes: Record<string, Cafe[]> = {
         taste: 75,
         seatAvailability: 75,
         quietness: 50,
+        tbd: 50,
       },
       amenities: {
         outlets: true,
@@ -93,6 +97,7 @@ export const cafes: Record<string, Cafe[]> = {
         taste: 75,
         seatAvailability: 75,
         quietness: 50,
+        tbd: 50,
       },
       amenities: {
         outlets: true,
@@ -111,6 +116,7 @@ export const cafes: Record<string, Cafe[]> = {
         taste: 75,
         seatAvailability: 75,
         quietness: 50,
+        tbd: 50,
       },
       amenities: {
         outlets: true,
@@ -129,6 +135,7 @@ export const cafes: Record<string, Cafe[]> = {
         taste: 75,
         seatAvailability: 75,
         quietness: 50,
+        tbd: 50,
       },
       amenities: {
         outlets: true,
@@ -149,6 +156,7 @@ export const cafes: Record<string, Cafe[]> = {
         taste: 75,
         seatAvailability: 75,
         quietness: 50,
+        tbd: 50,
       },
       amenities: {
         outlets: true,
@@ -167,6 +175,7 @@ export const cafes: Record<string, Cafe[]> = {
         taste: 75,
         seatAvailability: 75,
         quietness: 50,
+        tbd: 50,
       },
       amenities: {
         outlets: true,
@@ -185,6 +194,7 @@ export const cafes: Record<string, Cafe[]> = {
         taste: 75,
         seatAvailability: 75,
         quietness: 50,
+        tbd: 50,
       },
       amenities: {
         outlets: true,

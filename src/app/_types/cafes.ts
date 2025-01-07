@@ -1,12 +1,13 @@
 import { StaticImageData } from "next/image";
 
-interface Ratings {
+export interface Ratings {
   taste: number;
   seatAvailability: number;
   quietness: number;
+  tbd: number;
 }
 
-interface Amenities {
+export interface Amenities {
   outlets: boolean;
   food: boolean;
 }
