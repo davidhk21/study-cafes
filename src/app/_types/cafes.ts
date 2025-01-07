@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 interface Ratings {
   taste: number;
   seatAvailability: number;
@@ -9,12 +11,12 @@ interface Amenities {
   food: boolean;
 }
 
-export interface Cafes {
+export interface Cafe {
   id: string;
   name: string;
   alt: string;
   description: string;
-  photos: string[];
+  photos: StaticImageData[];
   url: string;
   address: string;
   ratings: Ratings;
