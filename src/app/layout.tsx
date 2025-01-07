@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Libre_Baskerville, Source_Sans_3 } from "next/font/google";
 import NavBar from "./_components/NavBar";
 import { NextUIProvider } from "@nextui-org/system";
+import GoogleMapsProvider from "./_providers/GoogleMapsProvider";
 
 import "./globals.css";
 
@@ -38,13 +39,15 @@ export default function RootLayout({
     >
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <body>
-        <NextUIProvider>
-          <NavBar />
-        </NextUIProvider>
+        <GoogleMapsProvider>
+          <NextUIProvider>
+            <NavBar />
+          </NextUIProvider>
           {children}
           <div className="h-40 bg-white font-libre text-xl flex justify-center items-center">
             david kim study cafes
           </div>
+        </GoogleMapsProvider>
       </body>
     </html>
   );

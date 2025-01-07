@@ -36,7 +36,15 @@ const CityPage = async ({ params }: {
       </div>
       <div className="flex flex-row border border-black h-[50vh]">
         <div className="flex-1 border border-black">
-          Map Section
+        <iframe
+          width="600"
+          height="450"
+          // style="border:0"
+          loading="lazy"
+          allowFullScreen
+          referrerPolicy="no-referrer-when-downgrade"
+          src={`https://www.google.com/maps/embed/v1/place?key=${process.env.GOOGLE_MAPS_API_KEY}&q=Space+Needle,Seattle+WA`}>
+        </iframe>
         </div>
         <div className="flex-1 border border-black">
           Amenities Section
