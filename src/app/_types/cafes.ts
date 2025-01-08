@@ -20,6 +20,7 @@ export interface Cafe {
   photos: StaticImageData[];
   url: string;
   address: string;
+  mapsQuery: string;
   ratings: Ratings;
   amenities: Amenities;
 }

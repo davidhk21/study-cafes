@@ -15,6 +15,7 @@ export const cafes: Record<string, Cafe[]> = {
       photos: [photo1, photo2, photo3],
       url: "https://g.co/kgs/qdfFVGy",
       address: "18 W 29th St, New York, NY 10001",
+      mapsQuery: "Stumptown Coffee Roasters P2W6+7P New York",
       ratings: {
         taste: 75,
         seatAvailability: 75,
@@ -34,6 +35,7 @@ export const cafes: Record<string, Cafe[]> = {
       photos: [photo1, photo2, photo3],
       url: "https://g.co/kgs/qdfFVGy",
       address: "18 W 29th St, New York, NY 10001",
+      mapsQuery: "Stumptown Coffee Roasters P2W6+7P New York",
       ratings: {
         taste: 75,
         seatAvailability: 75,
@@ -53,6 +55,7 @@ export const cafes: Record<string, Cafe[]> = {
       photos: [photo1, photo2, photo3],
       url: "https://g.co/kgs/qdfFVGy",
       address: "18 W 29th St, New York, NY 10001",
+      mapsQuery: "Stumptown Coffee Roasters P2W6+7P New York",
       ratings: {
         taste: 75,
         seatAvailability: 75,
@@ -72,6 +75,7 @@ export const cafes: Record<string, Cafe[]> = {
       photos: [photo1, photo2, photo3],
       url: "https://g.co/kgs/qdfFVGy",
       address: "18 W 29th St, New York, NY 10001",
+      mapsQuery: "Stumptown Coffee Roasters P2W6+7P New York",
       ratings: {
         taste: 75,
         seatAvailability: 75,
@@ -93,6 +97,7 @@ export const cafes: Record<string, Cafe[]> = {
       photos: [photo1, photo2, photo3],
       url: "https://g.co/kgs/qdfFVGy",
       address: "18 W 29th St, New York, NY 10001",
+      mapsQuery: "Stumptown Coffee Roasters P2W6+7P New York",
       ratings: {
         taste: 75,
         seatAvailability: 75,
@@ -112,6 +117,7 @@ export const cafes: Record<string, Cafe[]> = {
       photos: [photo1, photo2, photo3],
       url: "https://g.co/kgs/qdfFVGy",
       address: "18 W 29th St, New York, NY 10001",
+      mapsQuery: "Stumptown Coffee Roasters P2W6+7P New York",
       ratings: {
         taste: 75,
         seatAvailability: 75,
@@ -131,6 +137,7 @@ export const cafes: Record<string, Cafe[]> = {
       photos: [photo1, photo2, photo3],
       url: "https://g.co/kgs/qdfFVGy",
       address: "18 W 29th St, New York, NY 10001",
+      mapsQuery: "Stumptown Coffee Roasters P2W6+7P New York",
       ratings: {
         taste: 75,
         seatAvailability: 75,
@@ -152,6 +159,7 @@ export const cafes: Record<string, Cafe[]> = {
       photos: [photo1, photo2, photo3],
       url: "https://g.co/kgs/qdfFVGy",
       address: "18 W 29th St, New York, NY 10001",
+      mapsQuery: "Stumptown Coffee Roasters P2W6+7P New York",
       ratings: {
         taste: 75,
         seatAvailability: 75,
@@ -171,6 +179,7 @@ export const cafes: Record<string, Cafe[]> = {
       photos: [photo1, photo2, photo3],
       url: "https://g.co/kgs/qdfFVGy",
       address: "18 W 29th St, New York, NY 10001",
+      mapsQuery: "Stumptown Coffee Roasters P2W6+7P New York",
       ratings: {
         taste: 75,
         seatAvailability: 75,
@@ -190,6 +199,7 @@ export const cafes: Record<string, Cafe[]> = {
       photos: [photo1, photo2, photo3],
       url: "https://g.co/kgs/qdfFVGy",
       address: "18 W 29th St, New York, NY 10001",
+      mapsQuery: "Stumptown Coffee Roasters P2W6+7P New York",
       ratings: {
         taste: 75,
         seatAvailability: 75,

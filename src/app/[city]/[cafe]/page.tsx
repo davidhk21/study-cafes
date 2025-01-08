@@ -11,8 +11,6 @@ const CityPage = async ({ params }: {
 
   const selectedCafe = cafes[city].find((c) => cafe === c.alt) as Cafe;
 
-  console.log('this is selected cafe: ', selectedCafe);
-
   return (
     <div>
       <div className="flex justify-center items-center">
@@ -28,22 +26,22 @@ const CityPage = async ({ params }: {
       </div>
       <div className="border border-black flex flex-row justify-center items-center px-12">
         <Ratings ratings={selectedCafe.ratings} />
-        <Image 
-          src={selectedCafe.photos[1]}
-          alt={selectedCafe.name}
-          className="h-[80vh] flex-1 border border-black aspect-auto"
-        />
+        <div className="flex-1 border border-black">
+          <Image 
+            src={selectedCafe.photos[1]}
+            alt={selectedCafe.name}
+            // className="aspect-auto"
+          />
+        </div>
       </div>
       <div className="flex flex-row border border-black h-[50vh]">
-        <div className="flex-1 border border-black">
+        <div className="flex-1 border border-black flex items-center justify-center">
         <iframe
-          width="600"
-          height="450"
-          // style="border:0"
+          className="min-w-[200px] min-h-[200px] w-[75%] h-[75%]"
           loading="lazy"
           allowFullScreen
           referrerPolicy="no-referrer-when-downgrade"
-          src={`https://www.google.com/maps/embed/v1/place?key=${process.env.GOOGLE_MAPS_API_KEY}&q=Space+Needle,Seattle+WA`}>
+          src={`https://www.google.com/maps/embed/v1/place?key=${process.env.GOOGLE_MAPS_API_KEY}&q=${selectedCafe.mapsQuery}`}>
         </iframe>
         </div>
         <div className="flex-1 border border-black">
