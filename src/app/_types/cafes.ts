@@ -7,9 +7,18 @@ export interface Ratings {
   tbd: number;
 }
 
+interface Amenitiy {
+  icon: React.ElementType;
+  text: string;
+}
+
 export interface Amenities {
-  outlets: boolean;
-  food: boolean;
+  outlets?: Amenitiy;
+  food?: Amenitiy;
+  bathroom?: Amenitiy;
+  wifi?: Amenitiy;
+  outdoorSeating?: Amenitiy;
+  petFriendly?: Amenitiy;
 }
 
 export interface Cafe {

@@ -5,6 +5,13 @@ import photo1 from '../../../public/stumptown-coffee-roasters-header.jpg';
 import photo2 from '../../../public/ace-hotel-lobby-vertical.jpg';
 import photo3 from '../../../public/ace-lobby-hotel.jpg';
 
+import PowerIcon from '@mui/icons-material/Power';
+import RestaurantIcon from '@mui/icons-material/Restaurant';
+import RestroomIcon from '@mui/icons-material/Wc';
+import WifiIcon from '@mui/icons-material/Wifi';
+import OutdoorSeatingIcon from '@mui/icons-material/Deck';
+import PetFriendlyIcon from '@mui/icons-material/Pets';
+
 export const cafes: Record<string, Cafe[]> = {
   "new-york": [
     {
@@ -23,8 +30,30 @@ export const cafes: Record<string, Cafe[]> = {
         tbd: 50,
       },
       amenities: {
-        outlets: true,
-        food: true,
+        outlets: {
+          icon: PowerIcon,
+          text: "Outlets"
+        },
+        food: {
+          icon: RestaurantIcon,
+          text: "Food"
+        },
+        bathroom: {
+          icon: RestroomIcon,
+          text: "Restrooms"
+        },
+        wifi: {
+          icon: WifiIcon,
+          text: "Wifi"
+        },
+        outdoorSeating: {
+          icon: OutdoorSeatingIcon,
+          text: "Outdoor Seating"
+        },
+        petFriendly: {
+          icon: PetFriendlyIcon,
+          text: "Pet Friendly"
+        },
       }
     },
     {
@@ -43,8 +72,30 @@ export const cafes: Record<string, Cafe[]> = {
         tbd: 50,
       },
       amenities: {
-        outlets: true,
-        food: true,
+        outlets: {
+          icon: PowerIcon,
+          text: "Outlets"
+        },
+        food: {
+          icon: RestaurantIcon,
+          text: "Food"
+        },
+        bathroom: {
+          icon: RestroomIcon,
+          text: "Restrooms"
+        },
+        wifi: {
+          icon: WifiIcon,
+          text: "Wifi"
+        },
+        outdoorSeating: {
+          icon: OutdoorSeatingIcon,
+          text: "Outdoor Seating"
+        },
+        petFriendly: {
+          icon: PetFriendlyIcon,
+          text: "Pet Friendly"
+        },
       }
     },
     {
@@ -63,8 +114,30 @@ export const cafes: Record<string, Cafe[]> = {
         tbd: 50,
       },
       amenities: {
-        outlets: true,
-        food: true,
+        outlets: {
+          icon: PowerIcon,
+          text: "Outlets"
+        },
+        food: {
+          icon: RestaurantIcon,
+          text: "Food"
+        },
+        bathroom: {
+          icon: RestroomIcon,
+          text: "Restrooms"
+        },
+        wifi: {
+          icon: WifiIcon,
+          text: "Wifi"
+        },
+        outdoorSeating: {
+          icon: OutdoorSeatingIcon,
+          text: "Outdoor Seating"
+        },
+        petFriendly: {
+          icon: PetFriendlyIcon,
+          text: "Pet Friendly"
+        },
       }
     },
     {
@@ -83,8 +156,30 @@ export const cafes: Record<string, Cafe[]> = {
         tbd: 50,
       },
       amenities: {
-        outlets: true,
-        food: true,
+        outlets: {
+          icon: PowerIcon,
+          text: "Outlets"
+        },
+        food: {
+          icon: RestaurantIcon,
+          text: "Food"
+        },
+        bathroom: {
+          icon: RestroomIcon,
+          text: "Restrooms"
+        },
+        wifi: {
+          icon: WifiIcon,
+          text: "Wifi"
+        },
+        outdoorSeating: {
+          icon: OutdoorSeatingIcon,
+          text: "Outdoor Seating"
+        },
+        petFriendly: {
+          icon: PetFriendlyIcon,
+          text: "Pet Friendly"
+        },
       }
     },
   ],
@@ -105,8 +200,30 @@ export const cafes: Record<string, Cafe[]> = {
         tbd: 50,
       },
       amenities: {
-        outlets: true,
-        food: true,
+        outlets: {
+          icon: PowerIcon,
+          text: "Outlets"
+        },
+        food: {
+          icon: RestaurantIcon,
+          text: "Food"
+        },
+        bathroom: {
+          icon: RestroomIcon,
+          text: "Restrooms"
+        },
+        wifi: {
+          icon: WifiIcon,
+          text: "Wifi"
+        },
+        outdoorSeating: {
+          icon: OutdoorSeatingIcon,
+          text: "Outdoor Seating"
+        },
+        petFriendly: {
+          icon: PetFriendlyIcon,
+          text: "Pet Friendly"
+        },
       }
     },
     {
@@ -125,8 +242,30 @@ export const cafes: Record<string, Cafe[]> = {
         tbd: 50,
       },
       amenities: {
-        outlets: true,
-        food: true,
+        outlets: {
+          icon: PowerIcon,
+          text: "Outlets"
+        },
+        food: {
+          icon: RestaurantIcon,
+          text: "Food"
+        },
+        bathroom: {
+          icon: RestroomIcon,
+          text: "Restrooms"
+        },
+        wifi: {
+          icon: WifiIcon,
+          text: "Wifi"
+        },
+        outdoorSeating: {
+          icon: OutdoorSeatingIcon,
+          text: "Outdoor Seating"
+        },
+        petFriendly: {
+          icon: PetFriendlyIcon,
+          text: "Pet Friendly"
+        },
       }
     },
     {
@@ -145,8 +284,30 @@ export const cafes: Record<string, Cafe[]> = {
         tbd: 50,
       },
       amenities: {
-        outlets: true,
-        food: true,
+        outlets: {
+          icon: PowerIcon,
+          text: "Outlets"
+        },
+        food: {
+          icon: RestaurantIcon,
+          text: "Food"
+        },
+        bathroom: {
+          icon: RestroomIcon,
+          text: "Restrooms"
+        },
+        wifi: {
+          icon: WifiIcon,
+          text: "Wifi"
+        },
+        outdoorSeating: {
+          icon: OutdoorSeatingIcon,
+          text: "Outdoor Seating"
+        },
+        petFriendly: {
+          icon: PetFriendlyIcon,
+          text: "Pet Friendly"
+        },
       }
     }
   ],
@@ -167,8 +328,30 @@ export const cafes: Record<string, Cafe[]> = {
         tbd: 50,
       },
       amenities: {
-        outlets: true,
-        food: true,
+        outlets: {
+          icon: PowerIcon,
+          text: "Outlets"
+        },
+        food: {
+          icon: RestaurantIcon,
+          text: "Food"
+        },
+        bathroom: {
+          icon: RestroomIcon,
+          text: "Restrooms"
+        },
+        wifi: {
+          icon: WifiIcon,
+          text: "Wifi"
+        },
+        outdoorSeating: {
+          icon: OutdoorSeatingIcon,
+          text: "Outdoor Seating"
+        },
+        petFriendly: {
+          icon: PetFriendlyIcon,
+          text: "Pet Friendly"
+        },
       }
     },
     {
@@ -187,8 +370,30 @@ export const cafes: Record<string, Cafe[]> = {
         tbd: 50,
       },
       amenities: {
-        outlets: true,
-        food: true,
+        outlets: {
+          icon: PowerIcon,
+          text: "Outlets"
+        },
+        food: {
+          icon: RestaurantIcon,
+          text: "Food"
+        },
+        bathroom: {
+          icon: RestroomIcon,
+          text: "Restrooms"
+        },
+        wifi: {
+          icon: WifiIcon,
+          text: "Wifi"
+        },
+        outdoorSeating: {
+          icon: OutdoorSeatingIcon,
+          text: "Outdoor Seating"
+        },
+        petFriendly: {
+          icon: PetFriendlyIcon,
+          text: "Pet Friendly"
+        },
       }
     },
     {
@@ -207,8 +412,30 @@ export const cafes: Record<string, Cafe[]> = {
         tbd: 50,
       },
       amenities: {
-        outlets: true,
-        food: true,
+        outlets: {
+          icon: PowerIcon,
+          text: "Outlets"
+        },
+        food: {
+          icon: RestaurantIcon,
+          text: "Food"
+        },
+        bathroom: {
+          icon: RestroomIcon,
+          text: "Restrooms"
+        },
+        wifi: {
+          icon: WifiIcon,
+          text: "Wifi"
+        },
+        outdoorSeating: {
+          icon: OutdoorSeatingIcon,
+          text: "Outdoor Seating"
+        },
+        petFriendly: {
+          icon: PetFriendlyIcon,
+          text: "Pet Friendly"
+        },
       }
     }
   ]

@@ -13,7 +13,7 @@ const Ratings = ({ ratings }: {
   ratings: Ratings
 }) => {
   return (
-    <div className="border border-red-500 flex-1 gap-5 flex flex-col items-center">
+    <div className="flex-1 gap-5 flex flex-col items-center py-5">
       {Object.entries(ratings).map(([category, score], idx) => (
         <div key={`${category}-${score}-${idx}`} className="flex flex-col gap-5 justify-center items-center px-12 py-5 w-[80%] font-libre text-2xl shadow-lg">
           {categoryMap[category]}
