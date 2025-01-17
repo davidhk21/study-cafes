@@ -7,6 +7,8 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import Typography from '@mui/material/Typography';
 import ListItemText from '@mui/material/ListItemText';
+import FadeInWhenVisible from "@/app/_components/FadeInWhenVisible";
+
 
 const CityPage = async ({ params }: {
   params: Promise<{ city: CityName, cafe: string}>
@@ -28,7 +30,7 @@ const CityPage = async ({ params }: {
         </div>
       </div>
 
-      <div className="md:h-[100vh] flex flex-col md:flex-row items-center justify-center md:w-[80%] mx-auto">
+      <FadeInWhenVisible style="md:h-[100vh] flex flex-col md:flex-row items-center justify-center md:w-[80%] mx-auto">
         <Image 
           src={selectedCafe.photos[1]}
           alt={selectedCafe.name}
@@ -37,7 +39,7 @@ const CityPage = async ({ params }: {
         <div className="flex-1 flex flex-col justify-center w-[90%] md:w-[50%] md:ml-12 max-w-[500px]">
           <p className="mb-6 font-sans leading-loose text-lg">Stumptown Coffee Roasters was one of the first cafes I visited upon moving to New York, and it has remained a favorite ever since. I often stop by after church or when I need a convenient workspace in the Midtown area. <br /><br /> The seating area is situated in a spacious lobby connecting the Ace Hotel and the cafe itself. With its diverse seating options and a lively atmosphere of people working or chatting over coffee, the space offers a pleasant balance of background noise without being overwhelmingly loud—perfect for those who appreciate a dynamic yet comfortable environment.</p>
         </div>
-      </div>
+      </FadeInWhenVisible>
 
       <div className="flex flex-col md:flex-row justify-center items-center md:w-[80%] mx-auto">
         <div className="flex-1 flex flex-col justify-center w-[90%] md:w-[50%] md:ml-12 max-w-[500px]">
@@ -78,7 +80,7 @@ const CityPage = async ({ params }: {
         </div>
       </div>
 
-      <div className="w-full md:h-[100vh] flex flex-col justify-center items-center mt-6 md:mt-0">
+      <FadeInWhenVisible style="w-full md:h-[100vh] flex flex-col justify-center items-center mt-6 md:mt-0">
         <Image 
           src={selectedCafe.photos[2]}
           alt={selectedCafe.name}
@@ -88,7 +90,7 @@ const CityPage = async ({ params }: {
           <h2 className="mb-6 font-libre tracking-widest text-content-title">AESTHETIC</h2>
           <p className="font-sans leading-loose text-lg">Some really long description that has a bunch of words about the cafe and my personal opinion about thte cafe or what I like about the cafe that makes it worth adding to the list of cafes that I recommend</p>
         </div>
-      </div>
+      </FadeInWhenVisible>
 
       <div className="flex flex-col md:flex-row justify-center items-center w-[90%] md:w-[80%] mx-auto py-12">
         <iframe

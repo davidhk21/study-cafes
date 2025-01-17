@@ -44,7 +44,7 @@ export default function RootLayout({
             <NavBar />
           </NextUIProvider>
           {children}
-          <div className="h-40 bg-white font-libre text-xl flex justify-center items-center">
+          <div className="h-40 font-libre text-xl flex justify-center items-center bg-[#f0f0f0]">
             david kim study cafes
           </div>
         </GoogleMapsProvider>
