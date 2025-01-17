@@ -19,6 +19,10 @@ export interface Amenities {
   wifi?: Amenitiy;
   outdoorSeating?: Amenitiy;
   petFriendly?: Amenitiy;
+  pastries?: Amenitiy;
+  parking?: Amenitiy;
+  milkAlternatives?: Amenitiy;
+  naturalLighting?: Amenitiy;
 }
 
 export interface Cafe {

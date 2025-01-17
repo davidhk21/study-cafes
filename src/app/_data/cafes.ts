@@ -11,6 +11,10 @@ import RestroomIcon from '@mui/icons-material/Wc';
 import WifiIcon from '@mui/icons-material/Wifi';
 import OutdoorSeatingIcon from '@mui/icons-material/Deck';
 import PetFriendlyIcon from '@mui/icons-material/Pets';
+import PastriesIcon from '@mui/icons-material/BakeryDining';
+import ParkingIcon from '@mui/icons-material/LocalParking';
+import CoffeeIcon from '@mui/icons-material/Coffee';
+import LightingIcon from '@mui/icons-material/LightMode';
 
 export const cafes: Record<string, Cafe[]> = {
   "new-york": [
@@ -54,6 +58,23 @@ export const cafes: Record<string, Cafe[]> = {
           icon: PetFriendlyIcon,
           text: "Pet Friendly"
         },
+        pastries: {
+          icon: PastriesIcon,
+          text: "Pastries"
+        },
+        parking: {
+          icon: ParkingIcon,
+          text: "Parking"
+        },
+        milkAlternatives: {
+          icon: CoffeeIcon,
+          text: "Milk Alternatives"
+        },
+        naturalLighting: {
+          icon: LightingIcon,
+          text: "Natural Lighting"
+        }
+        // show all amenities and highlight
       }
     },
     {

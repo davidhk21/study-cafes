@@ -13,11 +13,28 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'content-title': "var(--contentTitle)"
       },
       fontFamily: {
         libre: ['var(--font-libre-baskerville)'],
         sans: ['var(--font-source-sans)']
-      }
+      },
+      animation: {
+        'fade-in': 'fadeIn 2s ease'
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': {
+            opacity: '0',
+          },
+          '100%': {
+            opacity: '.6'
+          }
+        }
+      },
+      aspectRatio: {
+        '3 / 4': '3 / 4',
+      },
     },
   },
   darkMode: "class",
