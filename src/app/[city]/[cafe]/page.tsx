@@ -111,9 +111,9 @@ const CityPage = async ({ params }: {
       <div className="flex flex-col md:flex-row justify-center items-center w-[90%] md:w-[80%] mx-auto py-12">
         <div className="grid-cols-2 w-[400px] pb-5">
           {Object.entries(selectedCafe.hours).map(([day, val]) => (
-            <div key={`${selectedCafe.id}-${day}`} className="flex justify-between pb-2">
+            <div key={`${selectedCafe.id}-${day}`} className="flex justify-between pb-2 ml-5 md:ml-0">
               <div className="font-libre">{day.slice(0, 1).toUpperCase()}{day.slice(1)}</div>
-              <div className="flex w-[250px]">
+              <div className="flex flex-col md:flex-row flex-end w-[250px]">
                 <div className="font-libre">{val.open} - {val.close}</div>
                 <div className={
                   ["font-sans inline text-[rgba(0,124,82,1)] font-medium ml-2",
