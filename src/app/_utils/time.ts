@@ -23,13 +23,13 @@ export const isOpenNow = (day: string, open: string, close: string) => {
   const [openHourOfDay, openMinOfDay] = openTimeOfDay.split(':');
 
   const militaryOpenHour = openAmOrPm === 'PM' ? (Number(openHourOfDay) + 12).toString() : openHourOfDay;
-  const militaryOpenHourWithMins = militaryOpenHour + openMinOfDay;
+  const militaryOpenHourWithMins = militaryOpenHour + (openMinOfDay.length === 1 ? '0' + openMinOfDay : openMinOfDay);
 
   const [closeTimeOfDay, closeAmOrPm] = close.split(' ');
   const [closeHourOfDay, closeMinOfDay] = closeTimeOfDay.split(':');
 
   const militaryCloseHour = closeAmOrPm === 'PM' ? (Number(closeHourOfDay) + 12).toString() : closeHourOfDay;
-  const militaryCloseHourWithMins = militaryCloseHour + closeMinOfDay;
+  const militaryCloseHourWithMins = militaryCloseHour + (closeMinOfDay.length == 1 ? '0' + closeMinOfDay : closeMinOfDay);
 
-  return isAfterOpenTime(militaryOpenHourWithMins, hours.toString() + mins.toString()) && isBeforeCloseTime(militaryCloseHourWithMins, hours.toString() + mins.toString()) ? true : false;
+  return isAfterOpenTime(militaryOpenHourWithMins, hours.toString() + (mins < 10 ? '0' + mins : mins.toString())) && isBeforeCloseTime(militaryCloseHourWithMins, hours.toString() + (mins < 10 ? '0' + mins : mins.toString())) ? true : false;
 }
