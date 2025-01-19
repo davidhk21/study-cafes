@@ -12,6 +12,11 @@ interface Amenitiy {
   text: string;
 }
 
+interface Hours {
+  open: string;
+  close: string;
+}
+
 export interface Amenities {
   outlets?: Amenitiy;
   food?: Amenitiy;
@@ -36,4 +41,5 @@ export interface Cafe {
   mapsQuery: string;
   ratings: Ratings;
   amenities: Amenities;
+  hours: Record<string, Hours>
 }

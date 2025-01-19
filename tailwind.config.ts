@@ -32,9 +32,6 @@ export default {
           }
         }
       },
-      aspectRatio: {
-        '3 / 4': '3 / 4',
-      },
     },
   },
   darkMode: "class",

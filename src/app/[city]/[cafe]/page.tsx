@@ -8,6 +8,7 @@ import ListItem from '@mui/material/ListItem';
 import Typography from '@mui/material/Typography';
 import ListItemText from '@mui/material/ListItemText';
 import FadeInWhenVisible from "@/app/_components/FadeInWhenVisible";
+import { isOpenNow } from "@/app/_utils/time";
 
 
 const CityPage = async ({ params }: {
@@ -101,7 +102,32 @@ const CityPage = async ({ params }: {
           src={`https://www.google.com/maps/embed/v1/place?key=${process.env.GOOGLE_MAPS_API_KEY}&q=${selectedCafe.mapsQuery}`}>
         </iframe>
         <div className="flex flex-col justify-center md:w-[50%] max-w-[500px] md:ml-12">
-        <h2 className="mb-6 font-libre tracking-widest text-content-title">LOCATION</h2>
+          <h2 className="mb-6 font-libre tracking-widest text-content-title">LOCATION</h2>
+          <p className="mb-6 font-sans leading-loose text-lg">Some really long description that has a bunch of words about the cafe and my personal opinion about thte cafe or what I like about the cafe that makes it worth adding to the list of cafes that I recommend</p>
+          <p className="font-sans leading-loose text-lg">Some really long description that has a bunch of words about the cafe and my personal opinion about thte cafe or what I like about the cafe that makes it worth adding to the list of cafes that I recommend</p>
+        </div>
+      </div>
+
+      <div className="flex flex-col md:flex-row justify-center items-center w-[90%] md:w-[80%] mx-auto py-12">
+        <div className="grid-cols-2 w-[400px] pb-5">
+          {Object.entries(selectedCafe.hours).map(([day, val]) => (
+            <div key={`${selectedCafe.id}-${day}`} className="flex justify-between pb-2">
+              <div className="font-libre">{day.slice(0, 1).toUpperCase()}{day.slice(1)}</div>
+              <div className="flex w-[250px]">
+                <div className="font-libre">{val.open} - {val.close}</div>
+                <div className={
+                  ["font-sans inline text-[rgba(0,124,82,1)] font-medium ml-2",
+                    !isOpenNow(day, val.open, val.close) && "hidden"
+                  ].join(' ')
+                  }>
+                    Open Now
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="flex flex-1 flex-col justify-center md:w-[50%] max-w-[500px] md:ml-12">
+          <h2 className="mb-6 font-libre tracking-widest text-content-title">HOURS OF OPERATION</h2>
           <p className="mb-6 font-sans leading-loose text-lg">Some really long description that has a bunch of words about the cafe and my personal opinion about thte cafe or what I like about the cafe that makes it worth adding to the list of cafes that I recommend</p>
           <p className="font-sans leading-loose text-lg">Some really long description that has a bunch of words about the cafe and my personal opinion about thte cafe or what I like about the cafe that makes it worth adding to the list of cafes that I recommend</p>
         </div>

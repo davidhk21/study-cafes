@@ -75,6 +75,36 @@ export const cafes: Record<string, Cafe[]> = {
           text: "Natural Lighting"
         }
         // show all amenities and highlight
+      },
+      hours: {
+        monday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        tuesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        wednesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        thursday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        friday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        saturday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        sunday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
       }
     },
     {
@@ -117,6 +147,36 @@ export const cafes: Record<string, Cafe[]> = {
           icon: PetFriendlyIcon,
           text: "Pet Friendly"
         },
+      },
+      hours: {
+        monday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        tuesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        wednesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        thursday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        friday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        saturday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        sunday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
       }
     },
     {
@@ -159,6 +219,36 @@ export const cafes: Record<string, Cafe[]> = {
           icon: PetFriendlyIcon,
           text: "Pet Friendly"
         },
+      },
+      hours: {
+        monday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        tuesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        wednesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        thursday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        friday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        saturday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        sunday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
       }
     },
     {
@@ -200,6 +290,36 @@ export const cafes: Record<string, Cafe[]> = {
         petFriendly: {
           icon: PetFriendlyIcon,
           text: "Pet Friendly"
+        },
+      },
+      hours: {
+        monday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        tuesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        wednesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        thursday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        friday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        saturday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        sunday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
         },
       }
     },
@@ -245,6 +365,36 @@ export const cafes: Record<string, Cafe[]> = {
           icon: PetFriendlyIcon,
           text: "Pet Friendly"
         },
+      },
+      hours: {
+        monday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        tuesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        wednesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        thursday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        friday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        saturday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        sunday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
       }
     },
     {
@@ -287,6 +437,36 @@ export const cafes: Record<string, Cafe[]> = {
           icon: PetFriendlyIcon,
           text: "Pet Friendly"
         },
+      },
+      hours: {
+        monday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        tuesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        wednesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        thursday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        friday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        saturday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        sunday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
       }
     },
     {
@@ -328,6 +508,36 @@ export const cafes: Record<string, Cafe[]> = {
         petFriendly: {
           icon: PetFriendlyIcon,
           text: "Pet Friendly"
+        },
+      },
+      hours: {
+        monday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        tuesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        wednesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        thursday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        friday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        saturday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        sunday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
         },
       }
     }
@@ -373,6 +583,36 @@ export const cafes: Record<string, Cafe[]> = {
           icon: PetFriendlyIcon,
           text: "Pet Friendly"
         },
+      },
+      hours: {
+        monday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        tuesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        wednesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        thursday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        friday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        saturday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        sunday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
       }
     },
     {
@@ -415,6 +655,36 @@ export const cafes: Record<string, Cafe[]> = {
           icon: PetFriendlyIcon,
           text: "Pet Friendly"
         },
+      },
+      hours: {
+        monday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        tuesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        wednesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        thursday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        friday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        saturday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        sunday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
       }
     },
     {
@@ -456,6 +726,36 @@ export const cafes: Record<string, Cafe[]> = {
         petFriendly: {
           icon: PetFriendlyIcon,
           text: "Pet Friendly"
+        },
+      },
+      hours: {
+        monday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        tuesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        wednesday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        thursday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        friday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        saturday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
+        },
+        sunday: {
+          open: '7:00 AM',
+          close: '6:00 PM'
         },
       }
     }
